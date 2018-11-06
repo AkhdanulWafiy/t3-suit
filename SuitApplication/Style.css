@@ -1,0 +1,48 @@
+#body{
+    background: white
+}
+#info{
+    text-align:center;
+    height: 50px;
+    width: 500px;
+    border: 1px aquamarine;
+    background: slateblue;
+    border-radius: 50px;
+    color:maroon;
+    background-position: top;
+}
+#status{
+    text-align: center;
+    background-position: top;
+}
+#your{
+    height:auto;
+    width:100%;
+    background:gold;
+    color:maroon;
+}
+#start{
+    text-align: center;
+    height:50px;
+    width:500px;
+    border:1px aquamarine;
+    background:slateblue;
+    border-radius:50px;
+    color:maroon;
+    Background-position:top;
+    font-size:50px;
+}
+#out{
+    font-size: 25px;
+    background: slateblue;
+}
+#h2{
+    font-size:80px;
+}
+#game{
+    font-size:100px;
+    color:white
+}
+#tampilan{
+    background-image: url("5.jpg");
+}

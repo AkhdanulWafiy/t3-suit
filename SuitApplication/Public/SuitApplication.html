@@ -1,0 +1,46 @@
+<Html>
+    <head>
+        <script src="https://www.gstatic.com/firebasejs/5.5.2/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  // TODO: Replace with your project's customized code snippet
+  var config = {
+    apiKey: "<API_KEY>",
+    authDomain: "<PROJECT_ID>.firebaseapp.com",
+    databaseURL: "https://<DATABASE_NAME>.firebaseio.com",
+    projectId: "<PROJECT_ID>",
+    storageBucket: "<BUCKET>.appspot.com",
+    messagingSenderId: "<SENDER_ID>",
+  };
+  firebase.initializeApp(config);
+</script>
+        <title> Suit Application </title>
+        <script src="Main.js"></script>
+        <link rel="shortcut icon" href="5.jpg">
+        <link href="Style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body id="body">
+        <div id="header">
+        <center><h1> Suit Application </h1></center>
+        </div>
+        <div id="main"></div>
+        <div id="computer">
+                <center><h3> Computer</h3></center>
+                <center><img src="17.png" id="enemy" width="100" height="100"/></center>
+            </div>
+            <br/><br/>
+            <center><div id="info">
+                <h1 id="status"></h1>
+                </div></left>
+            <div id="You" align="center">
+                <center><h3>Your Choice</h3></center>
+                <img src="1.png" id="gunting" onclick="gunting()"/>
+                <img src="2.png" id="batu" onclick="batu()"/>
+                <img src="3.png" id="kertas" onclick="kertas()"/>
+                <audio src="Kalah.mp3" id="Kalah" type="audio/mp3"></audio>
+                <audio src="Menang.mp3" id="Menang" type="audio/mp3"></audio>
+                <audio src="Seri.mp3" id="Seri" type="audio/mp3"></audio>
+            </div>
+        </div>
+    </body>
+</Html>
